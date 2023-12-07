@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="git-testFlow" doc:id="80a0e1a0-eb8a-4fdb-96b7-e3bee11bf64c" >
+		<logger level="INFO" doc:name="Logger" doc:id="cde1cb5d-ac7d-4699-8629-0968ae3cfa97" />
+	</flow>
+</mule>
